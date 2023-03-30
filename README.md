@@ -40,6 +40,7 @@
 ####  5) LWB = Long wheelbase
 ####  6) EWB = Extended wheelbase
 
+
 #### Transmission
 ####  1) A = Automatic
 ####  2) AM = Automated manual
@@ -47,8 +48,10 @@
 ####  4) AV = Continuously variable
 ####  5) M = Manual
 
+
 #### Gears
 ####    3 - 10 = Number of gears
+
 
 #### Fuel type
 ####   1) X = Regular gasoline

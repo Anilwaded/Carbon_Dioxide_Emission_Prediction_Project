@@ -13,7 +13,7 @@ Overall, the Project Carbon Dioxide Emission Prediction based on features of Eng
 ## Deliverables:
 #### The benefits of this project are significant. Firstly, it will help individuals and businesses make informed decisions when purchasing vehicles, by providing a clearer understanding of the carbon footprint associated with different engine types. Secondly, it will assist policymakers in developing more effective regulations and incentives aimed at reducing carbon emissions from the transportation sector.
 
-Furthermore, this project can also be helpful for the automobile industry in a number of ways. It can assist manufacturers in developing more fuel-efficient and environmentally friendly engines, which can increase their market share and competitiveness. Additionally, it can help companies comply with increasingly stringent emissions regulations, thereby avoiding penalties and reputational damage.
+####Furthermore, this project can also be helpful for the automobile industry in a number of ways. It can assist manufacturers in developing more fuel-efficient and environmentally friendly engines, which can increase their market share and competitiveness. Additionally, it can help companies comply with increasingly stringent emissions regulations, thereby avoiding penalties and reputational damage.
 
 ## Objective:
 #### The goal of this project is to predict CO2 emissions in g/km produced by any vehicle based on several car engine features.

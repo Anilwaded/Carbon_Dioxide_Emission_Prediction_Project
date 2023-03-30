@@ -33,20 +33,20 @@
 #### There are total 7385 rows and 12 columns. There are few abbreviations that has been used to describe the features. I am listing them out here. The same can be found in the Data Description sheet.
 
 #### Model
-####  1) 4WD/4X4 = Four-wheel drive
-####  2) AWD = All-wheel drive
-####  3) FFV = Flexible-fuel vehicle
-####  4) SWB = Short wheelbase
-####  5) LWB = Long wheelbase
-####  6) EWB = Extended wheelbase
+####    1) 4WD/4X4 = Four-wheel drive
+####    2) AWD = All-wheel drive
+####    3) FFV = Flexible-fuel vehicle
+####    4) SWB = Short wheelbase
+####    5) LWB = Long wheelbase
+####    6) EWB = Extended wheelbase
 
 
 #### Transmission
-####  1) A = Automatic
-####  2) AM = Automated manual
-####  3) AS = Automatic with select shift
-####  4) AV = Continuously variable
-####  5) M = Manual
+####    1) A = Automatic
+####    2) AM = Automated manual
+####    3) AS = Automatic with select shift
+####    4) AV = Continuously variable
+####    5) M = Manual
 
 
 #### Gears

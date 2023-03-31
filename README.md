@@ -21,10 +21,10 @@
 ## Raw Dataset:
 #### https://drive.google.com/file/d/1lHO9-JDoDWiibbw3KUXAQfeC-UWHLuwQ/view?usp=share_link
 
-## Cleaned Dataset:
+## Preprocessed Dataset:
 #### https://drive.google.com/file/d/1ccnKkziNzDk4TeCihwal-q3uxp0RrwG0/view?usp=share_link
 
-## Preprocessed Dataset:
+## Final dataset for feed to the Model:
 #### https://drive.google.com/file/d/1OmfYRE-GlK4Cg64e4PxhYhhRkDr5ivWd/view?usp=share_link
 
 ## About Dataset:

@@ -32,7 +32,7 @@
 #### This dataset captures the details of how CO2 emissions by a vehicle can vary with the different features. The dataset has been taken from Canada Government official open data website. This is a compiled version. This contains data over a period of 7 years.
 #### There are total 7385 rows and 12 columns. There are few abbreviations that has been used to describe the features. I am listing them out here. The same can be found in the Data Description sheet.
 
-#### Model
+#### Model:
 ####    1) 4WD/4X4 = Four-wheel drive
 ####    2) AWD = All-wheel drive
 ####    3) FFV = Flexible-fuel vehicle
@@ -41,7 +41,7 @@
 ####    6) EWB = Extended wheelbase
 
 
-#### Transmission
+#### Transmission:
 ####    1) A = Automatic
 ####    2) AM = Automated manual
 ####    3) AS = Automatic with select shift
@@ -49,11 +49,11 @@
 ####    5) M = Manual
 
 
-#### Gears
+#### Gears:
 ####    3 - 10 = Number of gears
 
 
-#### Fuel type
+#### Fuel type:
 ####   1) X = Regular gasoline
 ####   2) Z = Premium gasoline
 ####   3) D = Diesel
@@ -63,4 +63,49 @@
 #### Fuel Consumption City and highway fuel consumption ratings are shown in litres per 100 kilometres (L/100 km) - the combined rating (55% city, 45% hwy) is shown in L/100 km and in miles per gallon (mpg)
 
 #### CO2 Emissions The tailpipe emissions of carbon dioxide (in grams per kilometre) for combined city and highway driving.
+
+## Aknowledgements:
+#### The data has been taken and compiled from the below Canada Government official link
+####  https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64#wb-auto-6
+
+## Tools:
+#### Python: Jypyter Notebook
+
+## Project Summary:
+### 1. EDA
+####    From the data I came to know that:                                There are some dupluicate values in the dataset                            There are no null values                                                      Quantitative data consists of outliers                                          There is multicollinearity problem in the data.
+#### EDA Report: https://anilwaded-carbon-dioxide-emission-prediction--eda-report-8g01uh.streamlit.app/
+
+### 2. Data Preprocessing
+#### In this script
+#### I have removed the duplicate values.                                      I have detected the outliers with the help of Z-Score and IQR method and treated them by Quantile based flooring and capping.
+
+#### After preprocessing, data lookd like: https://drive.google.com/file/d/1ccnKkziNzDk4TeCihwal-q3uxp0RrwG0/view?usp=share_link
+
+### 3. Feature Engineering
+#### Since data is highly correlated within explanatory variables, I have used SelectKBest method and RFM method for feature selections.
+
+#### After Feature Engineering, data looks like: https://drive.google.com/file/d/1OmfYRE-GlK4Cg64e4PxhYhhRkDr5ivWd/view?usp=share_link
+
+### 4. Model building and Evaluation
+#### I have build the model with 8 different ML Algorithms:
+#### a) Linear Regression
+#### b) Ridge Regression
+#### c) Lasso Regression
+#### d) Decission Tree Regressor
+#### e) Random Forest Regressor
+#### f) Gradient Boosting
+#### g) Xtreme Gradient Boosting
+#### h) Support vector Machine and also build with
+#### i) Artificial Neural Networks
+#### Among these Xtreme Gradient Boosting and ANN fits the best with R2 score of 99.8%.
+
+### 5. Deployment
+####      I have deployed Xtreme Gradient Boosting Model in Streamlit Cloud
+
+####      Script: https://github.com/Anilwaded/Carbon_Dioxide_Emission_Prediction_Project_Deployment/blob/main/README.md
+
+
+## Conclusion:
+#### From the model performance metrics, it appears that 99.8% of the variance in the CO2 Emissions can be determined by the features within our model. While this model has good performance, we simplified the model by omitting several key categorical variables. It would be interesting to see if there is way to retain them within the model, and gain further insights.
 
